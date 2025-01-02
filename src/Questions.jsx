@@ -6,14 +6,14 @@ const Questions = () => {
   const [error, setError] = useState('');
 
   const subjects = [
-    { value: 'introduction', label: 'Introduction to Python', href: '/python/questions/introduction' },
-    { value: 'data-types', label: 'Data Types and Variables', href: '/python/questions/data-types',disabled:true },
-    { value: 'control-flow', label: 'Control Flow: Loops and Conditional Statements', href: '/python/questions/control-flow',disabled:true },
-    { value: 'functions-modules', label: 'Functions and Modules', href: '/python/questions/functions-modules',disabled:true },
-    { value: 'data-structures', label: 'Working with Data: Lists, Dictionaries, and Tuples', href: '/python/questions/data-structures',disabled:true },
-    { value: 'oop', label: 'Object-Oriented Programming', href: '/python/questions/oop' ,disabled:true},
-    { value: 'advanced-topics', label: 'Advanced Topics: File Handling, Error Handling', href: '/python/questions/advanced-topics' ,disabled:true},
-    { value: 'final-project', label: 'Final Project: Build a Python Application', href: '/python/questions/final-project' ,disabled:true},
+    { value: 'introduction', label: 'Introduction to Python', href: '/python/introduction' },
+    { value: 'data-types', label: 'Data Types and Variables', href: '/python/data-types',disabled:true },
+    { value: 'control-flow', label: 'Control Flow: Loops and Conditional Statements', href: '/python/control-flow',disabled:true },
+    { value: 'functions-modules', label: 'Functions and Modules', href: '/python/functions-modules',disabled:true },
+    { value: 'data-structures', label: 'Working with Data: Lists, Dictionaries, and Tuples', href: '/python/data-structures',disabled:true },
+    { value: 'oop', label: 'Object-Oriented Programming', href: '/python/oop' ,disabled:true},
+    { value: 'advanced-topics', label: 'Advanced Topics: File Handling, Error Handling', href: '/python/advanced-topics' ,disabled:true},
+    { value: 'final-project', label: 'Final Project: Build a Python Application', href: '/python/final-project' ,disabled:true},
   ];
 
   const handleInputChange = ({ target: { id, value } }) => {

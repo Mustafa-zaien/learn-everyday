@@ -22,7 +22,7 @@ function App() {
         <Route path="/basics" element={<Basics />} />
         <Route path="/python" element={<Python />}/>
         <Route path="/python/questions" element={<Questions />} />
-        <Route path="/python/questions/introduction" element={<Introduction />} />
+        <Route path="/python/introduction" element={<Introduction />} />
         <Route path="/data-analysis" element={<DataAnalysis />} />
       </Routes>
 
