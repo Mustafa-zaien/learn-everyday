@@ -1,13 +1,13 @@
 import { Routes, Route } from "react-router";
 import Home from "./Home";
-import Basics from "./basics/Basics";
-import DataAnalysis from "./dataAnalysis/DataAnalysis";
-import Python from "./python/Python";
+import Basics from "./Basics"
+import Python from "./Python"
+import DataAnalysis from "./DataAnalysis"
+import Questions from "./Questions"
+import Introduction from "./Introduction"
 import StaticHeader from "./StaticHeader";
 import StaticUpArrow from "./StaticUpArrow";
-import Questions from "./python/Questions/Questions";
 import StaticFooter from "./StaticFooter";
-import Introduction from "./python/Questions/Introduction";
 
 function App() {
   return (
